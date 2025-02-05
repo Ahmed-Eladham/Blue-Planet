@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  font-size: 2em;
+  background-image: linear-gradient(#00587558, #41b2d843), url("../img/summer_background_47_a.jpg");
+  position: relative;
+}
+canvas {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+h3.game-font {
+  margin-top: 5px;
+}
+/* الصور */
+.img1a {
+  background-image: url('../img/img1a.png');
+}
+.img1b {
+  background-image: url('../img/img1b.png');
+}
+.img2a {
+  background-image: url('../img/img2a.png');
+}
+.img2b {
+  background-image: url('../img/img2b.png');
+}
+.img3a {
+  background-image: url('../img/img3a.png');
+}
+.img3b {
+  background-image: url('../img/img3b.png');
+}
+.img4a {
+  background-image: url('../img/img4a.png');
+}
+.img4b {
+  background-image: url('../img/img4b.png');
+}
+.img5a {
+  background-image: url('../img/img5a.png');
+}
+.img5b {
+  background-image: url('../img/img5b.png');
+}
+
+/* END */
+/**************/
+
+.tight-fit {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 527px;
+  width: 675px;
+  border-radius: 0.5em;
+  border: 2px black solid;
+  box-shadow: inset 0 0 15px 2px black, 0 0 10px black;
+}
+.icon {
+  max-width: 2.5em;
+}
+.centered {
+  margin: 0 auto;
+}
+
+#dashboard.restrict-height {
+  min-height: 30vh;
+}
+
+#images-area.restrict-height {
+  min-height: 70vh;
+}
+
+.score-ui {
+  border: 1px solid black;
+  border-radius: 0.6em;
+  padding: 0.3em 0.5em;
+  margin-bottom: 1em;
+  background: rgb(224, 58, 74);
+  box-shadow: inset 0 0 15px 2px black, 0 0 5px black;
+}
+.score-ui.dark {
+  background: rgb(100, 100, 100);
+  color: white;
+}
+
+#highscore {
+  color: yellow;
+}
+
+
+#game-stage {
+  margin: 0 auto;
+}
+#countdown-timer {
+  display: inline-block;
+  font-size: 18em;
+  color: green;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 15px 2px black, 0 0 10px black;
+  border-radius: 0.6em;
+  width: 40%;
+}
+#left-pane {
+  margin-right: 10px;
+}
+/* ده برضوا مسروق بوت استراب  */
+.row {
+  padding-top: 7px;
+}
+.game-font {
+  font-family: 'Chango', cursive;
+}
+.progress {
+  height: 50px;
+  border-radius: 0.6em;
+  border: 2px solid black;
+  box-shadow: inset 0 0 15px 2px black, 0 0 5px black;
+}
+#time-bar {
+  border-radius: 0.6em;
+  box-shadow: inset 0 0 15px black, 0 0 20px black;
+}
