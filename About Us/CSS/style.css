@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Pic/summer_background_47_a.jpg);
+}
+/* header */
+header {
+    background-color: #f1f1f1;
+    width: 1686px;
+    height: 150px;
+    margin-top: -10px;
+    background: #f2f2f2;
+    
+  }
+  header .container {
+    display: flex;
+    margin-left: 180px;
+    justify-content: space-between;
+    margin-top: -40px;
+    
+  }
+
+  header .container > a {
+    margin-left: -180px;
+  }
+  .logo{
+    margin-left: 10px !important;
+  }
+  header .container .pages {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  header .container .pages li {
+    margin-top: 1px;
+    padding: 0 10px;
+    text-wrap: wrap;
+    align-self: center;
+    padding: 15px 15px 15px 15px;
+    background-color: transparent;
+  }
+  
+  header .container .pages li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    transform: 0.3s;
+    align-self: center;
+    padding: 15px 15px 15px 15px;
+    color: #ffffff;
+    border-radius: 70px;
+    background-color: #41b3d8;
+  }
+  
+  header .container .pages li a:hover {
+    border-radius: 70px;
+    padding: 16px;
+  }
+  /* End H */
+.wrapper{
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left:450px ;
+    background: #ffffff;
+    width:800px;
+    height: 750px;
+    border-radius: 15px;
+    padding: 80px;
+    margin-top: 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+    margin-left: -60px;
+    
+   
+}
+.team-mem{
+    margin: 8px;
+    
+}
+
+.Pic{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 24px;
+  
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+    
+    
+}
+.team-mem2{align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: -750px;
+}
