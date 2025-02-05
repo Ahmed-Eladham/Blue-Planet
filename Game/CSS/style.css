@@ -1,0 +1,68 @@
+@import url(https://db.onlinewebfonts.com/c/c56ea8aca8b3b1f84bcb7365c6ae4af0?family=Kalameh+Bold);
+:root {
+  --white: #f1f1f1;
+  --main-color: #27374d;
+  --secondary-color: #526d82;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalameh Bold", sans-serif;
+  overflow-x: hidden;
+  background-image: url(Pic/summer_background_47_a.jpg);
+}
+
+.container {
+  margin-top: 10px;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.Start{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    text-wrap: wrap;
+    margin-top: 300px;
+    margin-left: 723px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 100px;
+    color: #41b3d8;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+.back{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    text-wrap: wrap;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0px 20px 20px 0px;
+    color:#41b3d8 ;
+}
